@@ -1,0 +1,10 @@
+﻿@model EmployeeDetail.Models.Employee
+
+
+<h1>Welcome @User.Identity.Name</h1>
+<hr />
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
